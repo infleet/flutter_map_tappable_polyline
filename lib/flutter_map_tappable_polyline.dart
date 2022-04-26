@@ -158,7 +158,7 @@ class TappablePolylineLayer extends StatelessWidget {
                 children: [
                   for (final polylineOpt in polylineOpts.polylines)
                     CustomPaint(
-                      painter: PolylinePainter(polylineOpt),
+                      painter: PolylinePainter(polylineOpt, true),
                       size: size,
                     ),
                 ],
